@@ -10,6 +10,10 @@ git add . // add every file
 git status 
 git rm --cached session.php
 
+git commit
+// remove # initial commit and close the file
+git commit -m 'changed git-command.php'
+
  
 
 ?>
