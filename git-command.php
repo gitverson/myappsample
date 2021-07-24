@@ -12,8 +12,13 @@ git rm --cached session.php
 
 git commit
 // remove # initial commit and close the file
-git commit -m 'changed git-command.php'
+git commit -m 'changed git-command.php' // if u want to skip all edit stage  
 
+
+//gitignore command
+log.txt
+/dir2 // ignore directory
+*.txt //ignore all text file
  
 
 ?>
